@@ -59,7 +59,7 @@ body{
 #contact{
     float: left;
     position: relative;
-    left: 30%;
+    left: 15%;
     
 }
 .comu{
@@ -107,6 +107,18 @@ body{
     text-decoration: unset;
     color: white;
 }
+.email{
+    background-color: red;
+}
+.phone{
+    background-color: white;
+    color: white;
+}
+.info_img{
+    background-color: red;
+    animation: bgcolor_us 3s 1s infinite  ;
+
+}
 /* end style footer */
 /* start style content */
 .content_dev{
@@ -119,6 +131,8 @@ body{
     text-align: center;
     color: rgb(94, 221, 143);
     font-weight: bolder;
+    text-shadow: 5px 5px 7px  white;
+    animation: welcome 2s 2s infinite  ;
 }
 .content_bold{
     font-weight: 100px;
@@ -147,8 +161,8 @@ body{
     text-align: right;
     border: white 1.5px solid;
     margin-left: 40%;
-    box-shadow: ;
-    
+    box-shadow: 10px 10px 20px rgb(27, 247, 7);
+    animation: boxes_shadow 3s 1s infinite  ;
 }
 .content_dev-2{
     position: relative;
@@ -158,7 +172,13 @@ body{
     padding: 5%;
     margin-right: 40%;
     border: white 1.5px solid;
+    box-shadow: -10px -10px 20px rgb(243, 8, 8);
+    animation: boxes_shadow-2 3s 1s infinite  ;
 
+}
+footer h1{
+    color: red;
+    animation: color_us 3s 1s infinite  ;
 }
 /* a style for small scxreen */
 @media screen and (max-width:990px){
@@ -216,4 +236,168 @@ body{
     height:50px;
 
 }
+}
+@keyframes welcome{
+    0%{ 
+        margin: 1% 2% 0% 1%;
+        color: rgb(94, 221, 143);
+        font-weight: bolder;
+        text-shadow: 5px 5px 7px  white;
+    }
+    20%{
+        color: red;
+    }
+    40%{
+        color: blue;
+    }
+    60%{
+        color: yellow;
+    }
+    80%{
+        text-align: white;
+    }
+    100%{
+        text-align: black;
+    }
+
+}
+@keyframes boxes_shadow{
+    0%{ 
+        box-shadow: 10px 10px 20px rgb(27, 247, 7);
+    }
+    10%{
+        box-shadow: -10px -10px 20px rgb(27, 247, 7);
+    }
+    20%{
+        box-shadow: 10px 10px 20px rgb(27, 247, 7);
+    }
+    30%{
+        box-shadow: -10px -10px 20px rgb(27, 247, 7);
+    }
+    40%{
+        box-shadow: 10px 10px 20px rgb(27, 247, 7); 
+    }
+    50%{
+        box-shadow: -10px -10px 20px rgb(27, 247, 7);
+    }
+    60%{
+        box-shadow: 10px 10px 20px rgb(27, 247, 7); 
+    }
+    70%{
+        box-shadow: -10px -10px 20px rgb(27, 247, 7);
+    }
+    80%{
+        box-shadow: 10px 10px 20px rgb(27, 247, 7); 
+    }
+    90%{
+        box-shadow: -10px -10px 20px rgb(27, 247, 7);
+    }
+    100%{
+        box-shadow: 10px 10px 20px rgb(27, 247, 7); 
+    }
+}
+@keyframes boxes_shadow-2{
+    0%{ 
+        box-shadow: 10px 10px 20px  rgb(243, 8, 8);
+    }
+    10%{
+        box-shadow: -10px -10px 20px  rgb(243, 8, 8);
+    }
+    20%{
+        box-shadow: 10px 10px 20px  rgb(243, 8, 8);
+    }
+    30%{
+        box-shadow: -10px -10px 20px  rgb(243, 8, 8);
+    }
+    40%{
+        box-shadow: 10px 10px 20px  rgb(243, 8, 8); 
+    }
+    50%{
+        box-shadow: -10px -10px 20px  rgb(243, 8, 8);
+    }
+    60%{
+        box-shadow: 10px 10px 20px  rgb(243, 8, 8); 
+    }
+    70%{
+        box-shadow: -10px -10px 20px  rgb(243, 8, 8);
+    }
+    80%{
+        box-shadow: 10px 10px 20px  rgb(243, 8, 8); 
+    }
+    90%{
+        box-shadow: -10px -10px 20px  rgb(243, 8, 8);
+    }
+    100%{
+        box-shadow: 10px 10px 20px  rgb(243, 8, 8); 
+    }
+}
+@keyframes color_us{
+    0%{ 
+        color: red;
+    }
+    10%{
+        color: white;
+    }
+    20%{
+        color: red;
+    }
+    30%{
+        color: white;
+    }
+    40%{
+        color: red; 
+    }
+    50%{
+        color: white;
+    }
+    60%{
+        color: red; 
+    }
+    70%{
+        color: white;
+    }
+    80%{
+        color: red; 
+    }
+    90%{
+        color: white;
+    }
+    100%{
+        color: red; 
+    }
+}
+@keyframes bgcolor_us{
+    0%{ 
+        background-color: red;
+    }
+    10%{
+        background-color: white;
+    }
+    20%{
+        background-color: red;
+    }
+    30%{
+        background-color: white;
+    }
+    40%{
+        background-color: red; 
+    }
+    50%{
+        background-color: white;
+    }
+    60%{
+        background-color: red; 
+    }
+    70%{
+        background-color: white;
+    }
+    80%{
+        background-color: red; 
+    }
+    90%{
+        background-color: white;
+    }
+    100%{
+        background-color: red; 
+    }
 }
