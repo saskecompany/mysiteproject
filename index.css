@@ -140,16 +140,26 @@ body{
 }
 .content_dev-1{
     float: left;
+    position: relative;
+    left: 0%;
     margin: 2%;
+    padding: 4%;
+    text-align: right;
+    border: white 1.5px solid;
+    margin-left: 40%;
+    box-shadow: ;
+    
 }
 .content_dev-2{
+    position: relative;
+    right: 0%;
     float: right;
     margin: 2%;
+    padding: 5%;
+    margin-right: 40%;
+    border: white 1.5px solid;
+
 }
-
-
-
-
 /* a style for small scxreen */
 @media screen and (max-width:990px){
 .navbar-brand{
