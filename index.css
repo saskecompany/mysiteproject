@@ -1,0 +1,209 @@
+body{
+    direction: rtl;
+}
+body{
+    background-color: black;
+}
+.form-control{
+    margin: 0% 0% 0% 20% ;
+    position: static;
+    width:800px;
+    opacity: 0.5;
+    color: black;
+    font-size: 18px;
+}
+.navbar-expand-lg{
+    background-color: rgb(58, 57, 57);
+    color: black;
+}
+.navbar-toggler-icon{
+    background-color: rgb(255, 255, 255);
+    border: tomato 1px solid;
+    width: 50px;
+    height:50px;
+    visibility: hidden;
+
+}
+.nav-item{
+    position: relative;
+    left: 50%;
+    font-size: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    color: ivory;
+}
+.dropdown-item, .dropdown-menu{
+    color: ivory;
+    background-color: black;
+}
+.dropdown-item:hover{
+    font-size: 20px;
+    background-color: gray;
+}
+/* en style to nav */
+/* style welcomed & intro */
+.d-none {
+    color: red;
+}
+.d-block, .w-100{
+    width: 400px;
+    height: 750px;
+}
+/* <!-- end style welcomed & intro --> */
+/* style footer */
+#us{
+    color: ivory;
+    text-align: center;
+}
+#contact{
+    float: left;
+    position: relative;
+    left: 30%;
+    
+}
+.comu{
+    text-align: left;
+    float: left;
+    position: relative;
+    left: 2%;
+    color: white;
+}
+.us{
+    float: right;
+    position: relative;
+    right: 2%;
+}
+.info{
+    text-align: right;
+    float: right;
+    position: relative;
+    right: 2%;
+}
+.line{
+    position: absolute;
+    top: 10%;
+}
+.facebook{
+    background-color: rgb(2, 137, 248);
+    border: black 0px solid;
+    border-radius: 100%;
+}
+.whatsapp{
+    background-color: green;
+    border: black 0px solid;
+    border-radius: 100%;
+}.linkedin{
+    background-color: white;
+    border: black 0px solid;
+    border-radius: 100%;
+}
+.youtube{
+    background-color: red;
+    border: black 0px solid;
+    border-radius: 100%;
+}
+.links a{
+    text-decoration: unset;
+    color: white;
+}
+/* end style footer */
+/* start style content */
+.content_dev{
+    margin: 1% 2% 0% 1%;
+
+    color: red;
+}
+.content_tittle{
+    margin: 1% 2% 0% 1%;
+    text-align: center;
+    color: rgb(94, 221, 143);
+    font-weight: bolder;
+}
+.content_bold{
+    font-weight: 100px;
+    margin-right: 1%;
+}
+.content{
+    font-size: 18px;
+    margin:10%;
+    color: ivory;
+}
+.content_bold-1{
+    font-weight: 100px;
+    margin-right: 1%;
+}
+.content-1{
+    font-size: 18px;
+    margin:10%;
+    color: ivory;
+}
+.content_dev-1{
+    float: left;
+    margin: 2%;
+}
+.content_dev-2{
+    float: right;
+    margin: 2%;
+}
+
+
+
+
+/* a style for small scxreen */
+@media screen and (max-width:990px){
+.navbar-brand{
+    margin-right: 45%;
+}
+.form-control{
+    width: 100%;
+}
+.nav-item{
+    position: static;
+    font-size: 20px;
+}
+.navbar-collapse{
+    text-align: center;
+}
+/* end style for nav bar in small screen */
+/* start style for image in small screen */
+.d-block, .w-100{
+    width: 500px;
+    height: 500px;
+}
+.us{
+    float: right;
+    position: relative;
+    right: 2%;
+    margin-top: 50%;
+}
+.info{
+    text-align: right;
+    float: right;
+    position: relative;
+    right: 2%;
+}
+#contact{
+    float: left;
+    position: relative;
+    left: 46%;
+    
+}
+.comu{
+    text-align: left;
+    float: left;
+    position: relative;
+    left: 2%;
+}
+.dropdown-item, .dropdown-menu{
+    text-align: center;
+}
+.navbar-toggler-icon{
+    visibility: visible;
+    background-color: rgb(255, 255, 255);
+    border: tomato 1px solid;
+    width: 50px;
+    height:50px;
+
+}
+}
